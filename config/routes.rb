@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  get "user/name:string"
+  get "user/email:string"
   get "users/new"
   root  'static_pages#home'
   
